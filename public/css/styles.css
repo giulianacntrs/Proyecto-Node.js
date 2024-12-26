@@ -1,0 +1,307 @@
+
+/* styles.css */
+body {
+  color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+.elementos-navbar{
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+  align-items: center;
+
+}
+/* Agregar algunas mejoras de estilo para las cards */
+/* .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+ */
+ .bg-dark {
+  background-color: #343a40 !important;
+}
+
+/* Bordes de la tarjeta y bordes de los campos */
+.card {
+  border-radius: 12px;
+  border: 2px solid white;
+}
+
+/* Estilo de texto */
+.text-white {
+  color: white !important;
+}
+
+.form-control {
+  background-color: #495057 !important;
+  color: white;
+  border: 1px solid #ced4da;
+}
+.card{
+  background-color: #343a40 !important;
+}
+.logo{
+  width: 40%;
+  height: 40%;
+display: flex;
+justify-content: center;
+align-self: center;
+margin-right: 10px;
+
+}
+header{
+  background-color: #4b4b4b;
+  background-position: 100vh;
+}
+.form-control:focus {
+  border-color: white;
+  box-shadow: none;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #343a40;
+  border: 1px solid #343a40;
+}
+
+.btn-light:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Sombra sutil de la tarjeta */
+.card.shadow-lg {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mejorar los márgenes de los formularios */
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+/* Sombra de los campos de entrada */
+.form-control:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+/* .form-control {
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+
+.form-control:focus {
+  background-color: #e1e4e8;
+  border-color: #868e96;
+  box-shadow: 0 0 5px rgba(134, 142, 150, 0.5);
+} */
+
+/* .btn {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #5a6268;
+} */
+
+label {
+  font-weight: bold;
+  color: #495057;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+#productos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.producto img {
+  max-width: 100%;
+}
+
+#carrito-container {
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.carrito-item {
+  margin-bottom: 20px;
+}
+
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+#carrito-footer {
+  margin-top: 20px;
+}
+
+#carrito-footer button {
+  background-color: #f44336;
+}
+
+#carrito-footer button:hover {
+  background-color: #d32f2f;
+}
+
+/* SIDEBAR */
+.carrito-sidebar {
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+#carrito-container {
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #ccc;
+}
+
+#carrito-footer {
+  text-align: center;
+  background-color: #ccc;
+
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#carrito table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#carrito th,
+#carrito td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#total-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#total-price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.carrito-item button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carrito-item button:hover {
+  background-color: #0056b3;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#carrito-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+footer{
+  margin-top: -25px;
+}
+
+/* Medias querys */
+@media (max-width: 576px) {
+  .container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+}
